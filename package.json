@@ -1,0 +1,25 @@
+{
+  "name": "life-hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lfMail": "./bin/mail.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "glob": "^7.1.2",
+    "inquirer": "^6.1.0",
+    "lodash": "^4.17.10",
+    "markdown-it": "^8.4.2",
+    "minimist": "^1.2.0",
+    "nodemailer": "^4.6.7",
+    "nodemailer-markdown": "^1.0.2",
+    "require-glob": "^3.2.0"
+  }
+}
