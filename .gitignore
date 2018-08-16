@@ -1,5 +1,5 @@
 # Config
-*config.js
+src/lib/mail/config.js
 # Logs
 logs
 *.log
