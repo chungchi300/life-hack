@@ -37,3 +37,4 @@ Just upgrade the script,it will `automatically` upgrade system command implement
 - write by nodejs,using `async await for async task` and `more readable`
 - Sharable by version control
 - Easy to hack,it is written by **commander** and **inquirer**,formatted by `chalk`
+- Support mail to Microsoft Mail Server
