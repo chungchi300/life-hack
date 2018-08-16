@@ -1,6 +1,6 @@
 module.exports = {
-  user: "e.g chungchi300@hotmail.com",
-  pass: "e.g 123456",
+  user: "required e.g chungchi300@hotmail.com",
+  pass: "required e.g 123456",
   footer: {
     userName: "e.g Jeff Chung",
     userJobTitle: "e.g Software Engineer",

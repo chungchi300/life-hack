@@ -19,6 +19,8 @@ Node that support async await(>7.6)
 //1. git fork this repo
 //2. clone it
 npm install life-hack -g
+//3. config src/lib/mail/config.js,especially your email username and password
+//4. Enjoy~
 ```
 
 # Hacking
