@@ -6,6 +6,7 @@ const _ = require("lodash");
 
 var program = require("commander");
 const log = require("../log");
+const { sendSlack, logSlack } = require("./slack");
 async function main() {
   program
     .version("0.1.0")
