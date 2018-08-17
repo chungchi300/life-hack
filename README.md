@@ -1,6 +1,6 @@
 # Goal
 
-**An hackable script for my daily task**
+**An hackable script for my daily notification,written by nodejs**
 
 ```
 Mailing
