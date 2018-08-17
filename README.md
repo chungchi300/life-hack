@@ -2,8 +2,6 @@
 
 **An hackable script for my daily task**
 
-- Mail(annual leave,sick leave,code share,deployment notification) - Interactive Cli
-
 ```
 Mailing
 lfMail  --recipient Jeff --to chungchi300@hotmail.com --body reason=testing,speedUp=20x
@@ -19,7 +17,7 @@ lfSlack --conversationId CCBGKLVN2 --text message
 - Sharable by version control
 - Easy to hack,it is written by `commander` and `inquirer`,formatted by `chalk`
 - Support mail to Microsoft Mail Server
-- Support **markdown** syntax
+- Support **markdown mailing** syntax
 
 # Requirement
 
