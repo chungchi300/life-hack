@@ -7,6 +7,7 @@
 ```
 Mailing
 lfMail  --recipient Jeff --to chungchi300@hotmail.com --body reason=testing,speedUp=20x
+lfSlack --conversationId CCBGKLVN2 --text message
 ```
 
 ![help](./presentation/mail-help.png)
@@ -27,11 +28,9 @@ Node that support async await(>7.6)
 # Installation
 
 ```
-//1. git fork this repo
-//2. clone it
+git clone
 npm install life-hack -g
-//3. config src/lib/mail/config.js,especially your email username and password
-//4. Enjoy~
+// config src/lib/mail/config.js,especially your email username and password , and the src/lib/slack/config.js
 ```
 
 # Hacking

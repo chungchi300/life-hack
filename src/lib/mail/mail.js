@@ -30,7 +30,8 @@ module.exports = {
     `;
     return markdown;
   },
-  logMail(mailContent, to) {
+  logMail(mailContent, subject, to) {
+    log.important(`Subject :  ${subject}`);
     log.important(`Sending to : ${to}`);
     log.important(`From user email : ${user}`);
     log.normal(mailContent);

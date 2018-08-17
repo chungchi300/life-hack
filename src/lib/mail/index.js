@@ -36,13 +36,13 @@ async function main() {
 
   let mailContent = getMailContent(mail, program.recipient, program.body);
 
-  if (program.f) {
+  if (program.F) {
     await sentMail(mailContent, mail.subject, mail.to);
 
-    logMail(mailContent, to);
+    logMail(mailContent, mail.subject, to);
     log.good("Sent");
   } else {
-    logMail(mailContent, to);
+    logMail(mailContent, mail.subject, to);
     var questions = [
       {
         type: "list",
@@ -54,7 +54,7 @@ async function main() {
     let answers = await inquirer.prompt(questions);
     if (answers.confirm == "Yes") {
       log.good("Sent");
-      await sentMail(mailContent, mail.subject, mail.to);
+      await sentMail(mailContent, mail.subject, to);
     } else {
       log.bad("Cancel");
     }

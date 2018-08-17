@@ -7,11 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "lfMail": "./src/bin/mail.js"
+    "lfMail": "./src/bin/mail.js",
+    "lfSlack": "./src/bin/slack.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@slack/client": "^4.4.0",
     "chalk": "^2.4.1",
     "glob": "^7.1.2",
     "inquirer": "^6.1.0",
